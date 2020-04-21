@@ -1,0 +1,290 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+/* cabeçalho */
+.header-topo {
+    background: linear-gradient(280.38deg, #00B4EE 21.97%, rgba(255, 255, 255, 0) 100.92%), #1E6174;
+}
+.logo-marca {
+    display: block;
+    float: left;
+    padding: 11px 0;
+}
+.navegacacao-topo {
+    float: right;
+    text-align: right;
+    position: relative;
+    top: 42px;
+}
+.navegacacao-topo ul li {
+    text-transform: uppercase;
+    display: inline-block;
+    margin-left: 10px;
+    transition: all 100ms linear;
+    color: rgba(0, 82, 100, 0.5);
+}
+.navegacacao-topo ul li:hover {
+    border-bottom: 1px solid white;
+}
+.navegacacao-topo ul li a {
+    padding: 15px 0;
+    color: white;
+    font-size: 1.125em;
+}
+
+/* introdução */
+.introducao {
+    background: url("../img/body-of-water-2524874@2x.jpg") no-repeat center;
+    background-size: cover;
+    max-width: 100%;
+}
+.introducao-conteudo {
+    text-align: center;
+}
+.introducao-conteudo h1 {
+    font-size: 2.25em;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 0.1em;
+    margin: 60px 0;
+}
+.introducao-conteudo p {
+    margin: 60px auto;
+    font-size: 1.5em;
+    font-style: italic;
+    max-width: 730px;
+    color: rgba(100%,100%,100%,0.7);
+}
+.btn {
+    margin: 80px 0;
+}
+.btn a {
+    text-transform: uppercase;
+    padding: 20px 40px;
+    color: rgba(100%,100%,100%,0.9);
+    border: 2px solid currentColor;
+    border-radius: 10px;
+    background: rgba(0, 82, 100, 0.5);
+    transition: all 700ms linear;
+}
+.seta {
+    padding-left: 10px;
+}
+.btn a:hover {
+    background-color: rgba(100%,100%,100%,0.6);
+    color: rgba(0,82,110,1);
+}
+
+/* valores */
+.valores-item h2 {
+    margin: 60px 0 30px 0;
+    text-align: center;
+    font-size: 2.25em;
+    font-weight: bold;
+    color: #00526E;
+}
+.valores-foto-1 img {
+    padding: 20px 0;
+    display: block;
+    margin: 0 auto;
+}
+.valores-item img {
+    display: block;
+    margin: 0 auto;
+}
+.valores-item p {
+    padding: 31px 0 60px 0;
+    text-align: center;
+    max-width: 280px;
+    font-size: 1.125em;
+    color: #215A6E;
+}
+
+/* sobre resumo */
+.sobre-resumo {
+    background-color: rgba(0, 180, 228, 0.3);
+}
+.info-sobre-resumo h2 {
+    padding-top: 60px;
+    font-size: 2.25em;
+    color: #00526E;
+    text-align: center;
+    text-transform: uppercase;
+}
+.info-sobre-resumo p {
+    padding-top: 32px;
+    max-width: 420px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.125em;
+    color: #215A6E;
+}
+.btn-sobre {
+    text-align: center;
+    margin: 43px 69px;
+    padding-bottom: 35px;
+}
+.btn-sobre a {
+    text-transform: uppercase;
+    color: rgba(100%,100%,100%,0.9);
+    border: 2px solid currentColor;
+    border-radius: 10px;
+    background: rgba(0, 82, 100, 0.5);
+    transition: all 700ms linear;
+    padding: 10px 20px;
+}
+.btn-sobre a:hover {
+    background-color: rgba(100%,100%,100%,0.6);
+    color: rgba(0,82,110,1);
+}
+.img-sobre-resumo img {
+    display: block;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+/* avaliacoes */
+.avaliacao {
+    background: linear-gradient(280.38deg, #00B4EE 21.97%, rgba(255, 255, 255, 0) 100.92%), #1E6174;
+}
+.imagem-cliente {
+    padding: 30px 30px 30px 0;
+    float: left;
+}
+.cliente-info {
+    padding-top: 30px;
+}
+.cliente-info p {
+    max-width: 720px;
+    color: rgba(100%,100%,100%,0.8);
+    font-size: 0.875em;
+}
+.cliente-info p:first-child {
+    padding-bottom: 12px;
+    font-size: 1.125em;
+}
+.seta1 {
+    float: left;
+}
+.seta2 {
+    float: right;
+}
+.seta1, .seta2 {
+    display: block;
+    position: relative;
+    top: 50px;
+}
+
+/* footer */
+.seta-footer {
+    padding-right: 10px;
+}
+.footer {
+    padding: 30px 0;
+}
+.footer h3 {
+    font-size: 1.5em;
+    color: #00526E;
+    text-transform: uppercase;
+}
+.nav-footer {
+    padding-top: 15px;
+}
+.nav-footer ul li a, .contato-footer li {
+    color: #112A6E;
+}
+.nav-footer ul li a:hover {
+    color: #215A6A;
+}
+.contato-footer {
+    padding-top: 15px;
+}
+
+/*copy*/
+.copyright p {
+    padding: 5px 0;
+    background-color: rgba(0, 180, 228, 0.3);
+    color: rgba(0,82,110,1);
+    text-align: center;
+}
+/*slide*/
+[data-slide] {
+    position: relative;
+}
+[data-slide] > * {
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
+[data-slide] > .active {
+    position: relative;
+    opacity: 1;
+    transition: opacity 500ms;
+}
+@media (min-width: 740px) and (max-width: 980px) {
+    .container {
+        max-width: 720px;
+    }
+    .navegacacao-topo ul li {
+        margin-left: 5px;
+    }
+    .img-sobre-resumo {
+        padding: 80px 0;
+    }
+}
+@media (max-width: 739px) {
+    .container {
+        max-width: 300px;
+    }
+    .grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12 {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        float: none;
+    }
+    .navegacacao-topo {
+        display: none;
+    }
+    .navegacao-hamb-topo {
+        visibility: visible;
+    }
+    .footer h3 {
+        margin-top: 30px;
+    }
+    .footer {
+        padding: 0 0 30px 0;
+    }
+    .seta1, .seta2 {
+        display: none;
+    }
+    .cliente-info p {
+        padding: 0 0 30px 0;
+    }
+    .img-sobre-resumo img {
+        padding: 0 0 60px 0;
+    }
+    .btn-sobre a {
+        padding: 10px 10px;
+    }
+    .btn-sobre {
+        margin: 35px 0 15px 0;
+    }
+    .introducao-conteudo h1, .introducao-conteudo p {
+        margin: 30px 0;
+    }
+    .btn {
+        margin: 40px 0;
+    }
+    .logo-marca {
+        display: block;
+        position: relative;
+        left: 35px;
+        margin: 0 auto;
+    }
+}
+
