@@ -159,14 +159,14 @@ img {
 .cliente-info {
     padding-top: 30px;
 }
-.cliente-info p {
-    max-width: 720px;
-    color: rgba(100%,100%,100%,0.8);
-    font-size: 0.875em;
-}
 .cliente-info p:first-child {
     padding-bottom: 12px;
     font-size: 1.125em;
+}
+.cliente-info p:last-child {
+    max-width: 720px;
+    color: rgba(100%,100%,100%,0.8);
+    font-size: 0.875em;
 }
 .seta1 {
     float: left;
