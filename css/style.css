@@ -161,6 +161,7 @@ img {
 }
 .cliente-info p:first-child {
     padding-bottom: 12px;
+    color: rgba(100%,100%,100%,0.8);
     font-size: 1.125em;
 }
 .cliente-info p:last-child {
